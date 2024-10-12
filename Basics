@@ -21,13 +21,38 @@ Clinet ---> Sever(Domain)   (Client then directly requests the IP, and connects 
 
 
 
-What is Web Development?
+What is Web Development?  (Frontend + Backend + Database)
                 
 amazon.in  (req)----> Amazon Sever (resp)----> HTML, CSS, JS ----> In Browser
 
-HTML -> Structure, CSS -> Style, JS -> Functionality
+HTML -> Structure of website
+CSS -> Look, Style
+JS -> Functionality
 
 Frontend: HTML, CSS, JS , CSS Frameworks: (BS, Tailwind)
 Backend: Express, NodeJS
 Database: SQL, MongoDB
 + React
+
+
+
+Types of websites:
+
+1. Static Websites                                                                2. Dynamic Websites
+* Data is not in control of the user.                                             * Data control is in the hands of users and clients
+* Need to add additional code for new webpages.                                   * For example: Youtube website
+(These are like visiting cards that displays some content)
+* For example: Resume website
+
+{ - Cannot do changes
+  - Additional code
+  - Limited no. of pages }
+
+
+
+User's Prespective of a website
+
+Consider using a website as purchasing from a shop:
+1. Navigating to the shop <-> Searchig a website (domain name will locate its server)
+2. Placing an order <-> Request to server | Server queries to database
+3. Receiving the product <-> Relevant content sent to web browser
