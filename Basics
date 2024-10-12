@@ -1,0 +1,33 @@
+What is Internet?
+
+Internet is basically interconnected network of computers around the world.
+And every system on the internet has its unique address called IP address, using which the computer can traced/known.
+
+- Server: One of the computers or systems on the internet which is available 24x7 online and returns the date which it is asked for.
+- Client: System which asks the server for the data.
+
+
+
+How are websites accessed?
+
+Client --->  ISP  ---> DNS  (Client requests to the ISP for the IP address of the domain, further ISP request the DNS for the IP)
+Client <---  ISP  <--- DNS  (DNS sends the IP as response to the ISP, and ISP sends it to the client)
+Clinet ---> Sever(Domain)   (Client then directly requests the IP, and connects to the server of the domain)
+
+* ISP - Internet Service Provider (eg: Jio, Airtel etc.)
+* DNS - Domain Name System (like a global library- has IP address of all systems on internet)
+
+[We don't necessarily need to write the domain name of a website to interact with it, we can directly write the IP address also to interact with any website.]
+
+
+
+What is Web Development?
+                
+amazon.in  (req)----> Amazon Sever (resp)----> HTML, CSS, JS ----> In Browser
+
+HTML -> Structure, CSS -> Style, JS -> Functionality
+
+Frontend: HTML, CSS, JS , CSS Frameworks: (BS, Tailwind)
+Backend: Express, NodeJS
+Database: SQL, MongoDB
++ React
